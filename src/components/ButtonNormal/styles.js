@@ -1,139 +1,125 @@
-import styled from 'styled-components';
-import { darken } from 'polished';
+import styled from "styled-components";
+import { darken } from "polished";
 
 export const ButtonDefaultStyled = styled.ul`
-
-button {
-    background: #FFFFFF;
-    color: #676A6C;
+  button {
+    background: #ffffff;
+    color: #676a6c;
     border: 0;
     border-radius: 3px;
     font-size: inherit;
     min-width: 120px;
     font: 13px;
 
-    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-
-    margin: 0px 0px 5px;
+    margin: 0px 2.5px 5px;
     padding: 6px 12px;
 
     &:hover {
-        background: ${darken(0.03, '#FFFFFF')};
+      background: ${darken(0.03, "#FFFFFF")};
     }
-
-`;
-
-export const ButtonPrimaryStyled = styled.ul`
-button {
-    background: #1C84C6;
-    color: #FFFFFF;
-    border: 0;
-    border-radius: 3px;
-    font-size: inherit;
-    min-width: 120px;
-    font: 13px;
-
-    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-
-    margin: 0px 0px 5px;
-    padding: 6px 12px;
-
-    &:hover {
-        background: ${darken(0.03, '#1C84C6')};
-    }
+  }
 `;
 
 export const ButtonSucessStyled = styled.ul`
-button {
-    background: #1AB394;
-    color: #FFFFFF;
+  button {
+    justify-content: space-between;
+
+    background: #1c84c6;
+    color: #ffffff;
     border: 0;
     border-radius: 3px;
     font-size: inherit;
     min-width: 120px;
     font: 13px;
 
-    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-
-    margin: 0px 0px 5px;
+    margin: 0px 2.5px 5px;
     padding: 6px 12px;
 
     &:hover {
-        background: ${darken(0.03, '#1AB394')};
+      background: ${darken(0.03, "#1C84C6")};
     }
+  }
+`;
+
+export const ButtonPrimaryStyled = styled.ul`
+  button {
+    background: #1ab394;
+    color: #ffffff;
+    border: 0;
+    border-radius: 3px;
+    font-size: inherit;
+    min-width: 120px;
+    font: 13px;
+
+    margin: 0px 2.5px 5px;
+    padding: 6px 12px;
+
+    &:hover {
+      background: ${darken(0.03, "#1AB394")};
+    }
+  }
 `;
 
 export const ButtonInfoStyled = styled.ul`
-button {
+  button {
     background: #23c6c8;
-    color: #FFFFFF;
+    color: #ffffff;
     border: 0;
     border-radius: 3px;
     font-size: inherit;
     min-width: 120px;
     font: 13px;
 
-    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-
-    margin: 0px 0px 5px;
+    margin: 0px 2.5px 5px;
     padding: 6px 12px;
 
     &:hover {
-        background: ${darken(0.03, '#23c6c8')};
+      background: ${darken(0.03, "#23c6c8")};
     }
+  }
 `;
 
-
 export const ButtonWarningStyled = styled.ul`
-button {
-    background: #F8AC59;
-    color: #FFFFFF;
+  button {
+    background: #f8ac59;
+    color: #ffffff;
     border: 0;
     border-radius: 3px;
     font-size: inherit;
     min-width: 120px;
     font: 13px;
 
-    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-
-    margin: 0px 0px 5px;
+    margin: 0px 2.5px 5px;
     padding: 6px 12px;
 
     &:hover {
-        background: ${darken(0.03, '#F8AC59')};
+      background: ${darken(0.03, "#F8AC59")};
     }
+  }
 `;
 
 export const ButtonDangerStyled = styled.ul`
-button {
-    background: #ED5565;
-    color: #FFFFFF;
+  button {
+    background: #ed5565;
+    color: #ffffff;
     border: 0;
     border-radius: 3px;
     font-size: inherit;
     min-width: 120px;
     font: 13px;
 
-    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-
-    margin: 0px 0px 5px;
+    margin: 0px 2.5px 5px;
     padding: 6px 12px;
 
     &:hover {
-        background: ${darken(0.03, '#ED5565')};
+      background: ${darken(0.03, "#ED5565")};
     }
+  }
 `;
 
 export const ButtonLinkStyled = styled.ul`
-
-button {
-    background: #FFFFFF;
+  button {
+    background: #ffffff;
     color: #23c6c8;
     border: 0;
     border-radius: 3px;
@@ -141,14 +127,11 @@ button {
     min-width: 120px;
     font: 13px;
 
-    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-
-    margin: 0px 0px 5px;
+    margin: 0px 2.5px 5px;
     padding: 6px 12px;
 
     &:hover {
-        background: ${darken(0.03, '#FFFFFF')};
+      background: ${darken(0.03, "#FFFFFF")};
     }
-
+  }
 `;

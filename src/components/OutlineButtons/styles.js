@@ -1,154 +1,169 @@
-import styled from 'styled-components';
-import { darken } from 'polished';
+import styled from "styled-components";
+import { darken } from "polished";
 
 export const ButtonDefaultStyled = styled.ul`
-
-button {
+  button {
     background: #fff;
-    color: #676A6C;
+    color: #676a6c;
     border: 0;
     border-radius: 3px;
+    border-color: #676a6c;
+    border-style: solid;
+    border-width: 1px;
+    transition-duration: 0.5s;
     font-size: inherit;
-    min-width: 120px;
+    min-width: 80px;
     font: 13px;
 
-    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-
-    margin: 0px 0px 5px;
+    margin: 0px 2.5px 5px;
     padding: 6px 12px;
 
     &:hover {
-        background: #fff${darken(0.03, '#FFFFFF')};
+      background: #fff ${darken(0.03, "#FFFFFF")};
     }
-
-`;
-
-export const ButtonPrimaryStyled = styled.ul`
-button {
-    background: #fff;
-    color: #1C84C6;
-    border: 0;
-    border-radius: 3px;
-    font-size: inherit;
-    min-width: 120px;
-    font: 13px;
-
-    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-
-    margin: 0px 0px 5px;
-    padding: 6px 12px;
-
-    &:hover {
-        background: #fff${darken(0.03, '#1C84C6')};
-    }
+  }
 `;
 
 export const ButtonSucessStyled = styled.ul`
-button {
+  button {
     background: #fff;
-    color: #1AB394;
+    color: #1c84c6;
     border: 0;
     border-radius: 3px;
+    border-color: #1c84c6;
+    border-style: solid;
+    border-width: 1px;
+    transition-duration: 0.5s;
     font-size: inherit;
-    min-width: 120px;
+    min-width: 80px;
     font: 13px;
 
-    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-
-    margin: 0px 0px 5px;
+    margin: 0px 2.5px 5px;
     padding: 6px 12px;
 
     &:hover {
-        background: #fff${darken(0.03, '#1AB394')};
+      background: #1c84c6;
+      color: #fff;
     }
+  }
+`;
+
+export const ButtonPrimaryStyled = styled.ul`
+  button {
+    background: #fff;
+    color: #1ab394;
+    border: 0;
+    border-radius: 3px;
+    border-color: #1ab394;
+    border-style: solid;
+    border-width: 1px;
+    transition-duration: 0.5s;
+    font-size: inherit;
+    min-width: 80px;
+    font: 13px;
+
+    margin: 0px 2.5px 5px;
+    padding: 6px 12px;
+
+    &:hover {
+      background: #1ab394;
+      color: #fff;
+    }
+  }
 `;
 
 export const ButtonInfoStyled = styled.ul`
-button {
+  button {
     background: #fff;
     color: #23c6c8;
     border: 0;
     border-radius: 3px;
+    border-color: #23c6c8;
+    border-style: solid;
+    border-width: 1px;
+    transition-duration: 0.5s;
     font-size: inherit;
-    min-width: 120px;
+    min-width: 80px;
     font: 13px;
 
-    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-
-    margin: 0px 0px 5px;
+    margin: 0px 2.5px 5px;
     padding: 6px 12px;
 
     &:hover {
-        background: #fff${darken(0.03, '#23c6c8')};
+      background: #23c6c8;
+      color: #fff;
     }
+  }
 `;
 
-
 export const ButtonWarningStyled = styled.ul`
-button {
+  button {
     background: #fff;
-    color: #F8AC59;
+    color: #f8ac59;
     border: 0;
     border-radius: 3px;
+    border-color: #f8ac59;
+    border-style: solid;
+    border-width: 1px;
+    transition-duration: 0.5s;
     font-size: inherit;
-    min-width: 120px;
+    min-width: 80px;
     font: 13px;
 
-    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-
-    margin: 0px 0px 5px;
+    margin: 0px 2.5px 5px;
     padding: 6px 12px;
 
     &:hover {
-        background: #fff${darken(0.03, '#F8AC59')};
+      background: #f8ac59;
+      color: #fff;
     }
+  }
 `;
 
 export const ButtonDangerStyled = styled.ul`
-button {
+  button {
     background: #fff;
-    color: #ED5565;
+    color: #ed5565;
     border: 0;
     border-radius: 3px;
+    border-color: #ed5565;
+    border-style: solid;
+    border-width: 1px;
+    transition-duration: 0.5s;
     font-size: inherit;
-    min-width: 120px;
+    min-width: 80px;
     font: 13px;
 
-    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-
-    margin: 0px 0px 5px;
+    margin: 0px 2.5px 5px;
     padding: 6px 12px;
 
     &:hover {
-        background: #fff${darken(0.03, '#ED5565')};
+      background: #ed5565;
+      color: #fff;
     }
+  }
 `;
 
 export const ButtonLinkStyled = styled.ul`
-
-button {
+  button {
     background: #fff;
-    color: #23c6c8;
+    color: #676a6c;
     border: 0;
     border-radius: 3px;
+    border-color: #676a6c;
+    border-style: solid;
+    border-width: 1px;
+    transition-duration: 0.5s;
     font-size: inherit;
-    min-width: 120px;
+    min-width: 80px;
     font: 13px;
 
-    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-
-    margin: 0px 0px 5px;
+    margin: 0px 2.5px 5px;
     padding: 6px 12px;
 
     &:hover {
-        background: #fff${darken(0.03, '#FFFFFF')};
+      background: #fff;
+      color: #23c6c8;
     }
-
+  }
 `;
