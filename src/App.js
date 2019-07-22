@@ -4,6 +4,8 @@ import GlobalStyle from "./styles/global";
 
 import ButtonNormal from "./components/ButtonNormal";
 import OutlineButton from "./components/OutlineButtons";
+import ButtonRadio from "./components/ButtonRadio";
+import ClientSearchbar from "./components/ClientSearchbar";
 
 function App() {
   return (
@@ -23,6 +25,21 @@ function App() {
           <OutlineButton />
         </div>
       </div>
+
+      <div className="container">
+        <h1>Button Radio</h1>
+        <div className="components">
+          <ButtonRadio />
+        </div>
+      </div>
+
+      <div className="container">
+        <h1> Client Seachbar </h1>
+        <div className="components">
+          <ClientSearchbar />
+        </div>
+      </div>
+
     </>
   );
 }
