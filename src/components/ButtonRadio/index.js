@@ -10,7 +10,7 @@ export default function ButtonRadio(){
 
                 <div className="radiobutton"><label> <input type="radio" defaultValue="option2" id="optionsRadios2" name="optionsRadios" /> O menino Charlinho gosta mais de estudar </label></div>
                 <div className="radiobutton"><label> <input type="radio" defaultValue="option2" id="optionsRadios2" name="optionsRadios" /> O menino Charlinho gosta mais de batata </label></div>
-                <div className="radiobutton"><label> <input type="radio" defaultValue="option2" id="optionsRadios2" name="optionsRadios" /> O menino Charlinho gosta mais de batata e gosta mais de estudar </label></div>
+                <div className="radiobutton"><label> <input type="radio" defaultValue="option2" id="optionsRadios2" name="optionsRadios" /> O menino Charlinho gosta mais de batata e gosta mais de estudar também </label></div>
             </ButtonRadioStyled>
         </>
     )
